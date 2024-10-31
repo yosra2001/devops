@@ -5,7 +5,8 @@ import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.context.SpringBootTest;
-
+import tn.esprit.spring.repository.UserRepository; 
+import tn.esprit.spring.entity.Role;
 
 @SpringBootTest
 @TestMethodOrder(OrderAnnotation.class)
