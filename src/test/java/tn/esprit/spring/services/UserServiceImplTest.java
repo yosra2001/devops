@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import tn.esprit.spring.entity.Role;
+import tn.esprit.spring.repository.UserRepository;
 
 @SpringBootTest
 @TestMethodOrder(OrderAnnotation.class)
